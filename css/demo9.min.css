@@ -754,6 +754,7 @@ img {
     max-width: 100%;
     height: auto;
     vertical-align: middle
+    
 }
 
 hr {
@@ -5124,6 +5125,7 @@ blockquote {
     }
 
 .post-media {
+    display: grid;
     position: relative;
     width: 100%;
     margin-bottom: 0;
@@ -5132,9 +5134,10 @@ blockquote {
 }
 
     .post-media img {
-        display: block;
-        width: 100%;
-        height: auto;
+        width: 100%; /* مطابقت با عرض والد */
+        height: 100%; /* مطابقت با ارتفاع والد */
+        background-size: cover;
+        background-position: center;
         transition: transform 0.3s
     }
 
