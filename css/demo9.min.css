@@ -218,28 +218,9 @@
 .price-change.down {
     color: red; /* در صورت کاهش قیمت */
 }
-</style>
 
-<script>
-    $(document).ready(function(){
-        $(".owl-carousel").owlCarousel({
-            loop: true,
-            margin: 10,
-            nav: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 2
-                },
-                1000: {
-                    items: 3
-                }
-            }
-        });
-    });
-</script>
+
+
 
 .owl-theme .owl-nav .owl-next {
     right: -40px
